@@ -1,8 +1,19 @@
-# MITRE ATT&CK Mapping
+Subject: You have (4) inbox failed email deliveries
 
-| Technique | ID | Reason |
+From: support@mglnetwork.com
+To: jose@monkey.org
 
-| Phishing | T1566 | Email attempts to lure victim |
-| Spearphishing Link | T1566.002 | Contains malicious credential-harvesting URL |
-| Credential Access | TA0006 | Goal is likely credential theft |
-| User Execution | T1204 | Requires victim to click link |
+Suspicious URL:
+https://kecikekurisi.com/.well-known/pki-validation/control_ikb.html
+
+Sender IP:
+77.105.147.0
+
+Mail Server:
+162.214.230.221
+
+Reason flagged:
+- Urgent language
+- Fake mailbox warning
+- Requests credential verification
+- External domain unrelated to recipient organization
